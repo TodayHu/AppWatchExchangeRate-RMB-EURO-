@@ -26,8 +26,16 @@
                         </label>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Refresh" id="mUq-Ge-xV7">
                             <fontDescription key="font" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                            <connections>
+                                <action selector="Refresh" destination="AgC-eL-Hgc" id="Q4o-3O-KOA"/>
+                            </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="PriceLabel" destination="tEO-ve-hcL" id="Jau-nv-T1v"/>
+                        <outlet property="image" destination="SEG-cX-i2K" id="koK-dD-Yd6"/>
+                        <outlet property="updateTime" destination="81U-fP-hIm" id="Qac-x1-gIL"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>

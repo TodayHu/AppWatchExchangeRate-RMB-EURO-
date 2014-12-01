@@ -15,6 +15,7 @@
 		614A34291A2D010E008B60EF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614A34281A2D010E008B60EF /* Interface.storyboard */; };
 		614A342B1A2D010E008B60EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614A342A1A2D010E008B60EF /* Images.xcassets */; };
 		614A342E1A2D010E008B60EF /* BitWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 614A34131A2D010E008B60EF /* BitWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		614A34351A2D0398008B60EF /* BitWatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B876BB31A1CA05900A76FAF /* BitWatchKit.framework */; };
 		7B876B6A1A1C9F2D00A76FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B876B691A1C9F2D00A76FAF /* AppDelegate.swift */; };
 		7B876B6F1A1C9F2D00A76FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B876B6D1A1C9F2D00A76FAF /* Main.storyboard */; };
 		7B876B711A1C9F2D00A76FAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B876B701A1C9F2D00A76FAF /* Images.xcassets */; };
@@ -106,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614A34351A2D0398008B60EF /* BitWatchKit.framework in Frameworks */,
 				614A34141A2D010E008B60EF /* WatchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
