@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		614A34141A2D010E008B60EF /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA883B61A1CB87300C53ECE /* WatchKit.framework */; };
+		614A341A1A2D010E008B60EF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614A34191A2D010E008B60EF /* InterfaceController.swift */; };
+		614A341C1A2D010E008B60EF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614A341B1A2D010E008B60EF /* NotificationController.swift */; };
+		614A341E1A2D010E008B60EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614A341D1A2D010E008B60EF /* Images.xcassets */; };
+		614A34221A2D010E008B60EF /* BitWatch Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 614A34211A2D010E008B60EF /* BitWatch Watch App.app */; };
+		614A34291A2D010E008B60EF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614A34281A2D010E008B60EF /* Interface.storyboard */; };
+		614A342B1A2D010E008B60EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614A342A1A2D010E008B60EF /* Images.xcassets */; };
+		614A342E1A2D010E008B60EF /* BitWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 614A34131A2D010E008B60EF /* BitWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7B876B6A1A1C9F2D00A76FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B876B691A1C9F2D00A76FAF /* AppDelegate.swift */; };
 		7B876B6F1A1C9F2D00A76FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B876B6D1A1C9F2D00A76FAF /* Main.storyboard */; };
 		7B876B711A1C9F2D00A76FAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B876B701A1C9F2D00A76FAF /* Images.xcassets */; };
@@ -19,6 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		614A34231A2D010E008B60EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B876B5C1A1C9F2D00A76FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614A34201A2D010E008B60EF;
+			remoteInfo = "BitWatch Watch App";
+		};
+		614A342C1A2D010E008B60EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B876B5C1A1C9F2D00A76FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614A34121A2D010E008B60EF;
+			remoteInfo = "BitWatch WatchKit Extension";
+		};
 		7B876BC81A1CA05900A76FAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7B876B5C1A1C9F2D00A76FAF /* Project object */;
@@ -46,6 +68,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				614A342E1A2D010E008B60EF /* BitWatch WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +76,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		614A34131A2D010E008B60EF /* BitWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BitWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614A34171A2D010E008B60EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614A34181A2D010E008B60EF /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		614A34191A2D010E008B60EF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		614A341B1A2D010E008B60EF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		614A341D1A2D010E008B60EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		614A34211A2D010E008B60EF /* BitWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BitWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614A34271A2D010E008B60EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614A34281A2D010E008B60EF /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		614A342A1A2D010E008B60EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B876B641A1C9F2D00A76FAF /* BitWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B876B681A1C9F2D00A76FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B876B691A1C9F2D00A76FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +102,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		614A34101A2D010E008B60EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614A34141A2D010E008B60EF /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B876B611A1C9F2D00A76FAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,11 +128,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		614A34151A2D010E008B60EF /* BitWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				614A34191A2D010E008B60EF /* InterfaceController.swift */,
+				614A341B1A2D010E008B60EF /* NotificationController.swift */,
+				614A341D1A2D010E008B60EF /* Images.xcassets */,
+				614A34161A2D010E008B60EF /* Supporting Files */,
+			);
+			path = "BitWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		614A34161A2D010E008B60EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				614A34171A2D010E008B60EF /* Info.plist */,
+				614A34181A2D010E008B60EF /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		614A34251A2D010E008B60EF /* BitWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				614A34281A2D010E008B60EF /* Interface.storyboard */,
+				614A342A1A2D010E008B60EF /* Images.xcassets */,
+				614A34261A2D010E008B60EF /* Supporting Files */,
+			);
+			path = "BitWatch Watch App";
+			sourceTree = "<group>";
+		};
+		614A34261A2D010E008B60EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				614A34271A2D010E008B60EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		7B876B5B1A1C9F2D00A76FAF = {
 			isa = PBXGroup;
 			children = (
 				7B876B661A1C9F2D00A76FAF /* BitWatch */,
 				7B876BB41A1CA05900A76FAF /* BitWatchKit */,
+				614A34151A2D010E008B60EF /* BitWatch WatchKit Extension */,
+				614A34251A2D010E008B60EF /* BitWatch Watch App */,
 				7BA883B51A1CB87300C53ECE /* Frameworks */,
 				7B876B651A1C9F2D00A76FAF /* Products */,
 			);
@@ -102,6 +183,8 @@
 			children = (
 				7B876B641A1C9F2D00A76FAF /* BitWatch.app */,
 				7B876BB31A1CA05900A76FAF /* BitWatchKit.framework */,
+				614A34131A2D010E008B60EF /* BitWatch WatchKit Extension.appex */,
+				614A34211A2D010E008B60EF /* BitWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +251,39 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		614A34121A2D010E008B60EF /* BitWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614A34341A2D010E008B60EF /* Build configuration list for PBXNativeTarget "BitWatch WatchKit Extension" */;
+			buildPhases = (
+				614A340F1A2D010E008B60EF /* Sources */,
+				614A34101A2D010E008B60EF /* Frameworks */,
+				614A34111A2D010E008B60EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614A34241A2D010E008B60EF /* PBXTargetDependency */,
+			);
+			name = "BitWatch WatchKit Extension";
+			productName = "BitWatch WatchKit Extension";
+			productReference = 614A34131A2D010E008B60EF /* BitWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		614A34201A2D010E008B60EF /* BitWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614A34331A2D010E008B60EF /* Build configuration list for PBXNativeTarget "BitWatch Watch App" */;
+			buildPhases = (
+				614A341F1A2D010E008B60EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitWatch Watch App";
+			productName = "BitWatch Watch App";
+			productReference = 614A34211A2D010E008B60EF /* BitWatch Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		7B876B631A1C9F2D00A76FAF /* BitWatch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B876B831A1C9F2D00A76FAF /* Build configuration list for PBXNativeTarget "BitWatch" */;
@@ -182,6 +298,7 @@
 			);
 			dependencies = (
 				7B876BC91A1CA05900A76FAF /* PBXTargetDependency */,
+				614A342D1A2D010E008B60EF /* PBXTargetDependency */,
 			);
 			name = BitWatch;
 			productName = BitWatch;
@@ -215,6 +332,12 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Razeware LLC";
 				TargetAttributes = {
+					614A34121A2D010E008B60EF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					614A34201A2D010E008B60EF = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					7B876B631A1C9F2D00A76FAF = {
 						CreatedOnToolsVersion = 6.2;
 						SystemCapabilities = {
@@ -243,11 +366,31 @@
 			targets = (
 				7B876B631A1C9F2D00A76FAF /* BitWatch */,
 				7B876BB21A1CA05900A76FAF /* BitWatchKit */,
+				614A34121A2D010E008B60EF /* BitWatch WatchKit Extension */,
+				614A34201A2D010E008B60EF /* BitWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		614A34111A2D010E008B60EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614A341E1A2D010E008B60EF /* Images.xcassets in Resources */,
+				614A34221A2D010E008B60EF /* BitWatch Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614A341F1A2D010E008B60EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614A34291A2D010E008B60EF /* Interface.storyboard in Resources */,
+				614A342B1A2D010E008B60EF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B876B621A1C9F2D00A76FAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,6 +411,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		614A340F1A2D010E008B60EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614A341C1A2D010E008B60EF /* NotificationController.swift in Sources */,
+				614A341A1A2D010E008B60EF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B876B601A1C9F2D00A76FAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,6 +440,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		614A34241A2D010E008B60EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614A34201A2D010E008B60EF /* BitWatch Watch App */;
+			targetProxy = 614A34231A2D010E008B60EF /* PBXContainerItemProxy */;
+		};
+		614A342D1A2D010E008B60EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614A34121A2D010E008B60EF /* BitWatch WatchKit Extension */;
+			targetProxy = 614A342C1A2D010E008B60EF /* PBXContainerItemProxy */;
+		};
 		7B876BC91A1CA05900A76FAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7B876BB21A1CA05900A76FAF /* BitWatchKit */;
@@ -315,6 +477,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		614A342F1A2D010E008B60EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BitWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		614A34301A2D010E008B60EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BitWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		614A34311A2D010E008B60EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = BitWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "BitWatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		614A34321A2D010E008B60EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = BitWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "BitWatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		7B876B811A1C9F2D00A76FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,6 +692,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		614A34331A2D010E008B60EF /* Build configuration list for PBXNativeTarget "BitWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614A34311A2D010E008B60EF /* Debug */,
+				614A34321A2D010E008B60EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		614A34341A2D010E008B60EF /* Build configuration list for PBXNativeTarget "BitWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614A342F1A2D010E008B60EF /* Debug */,
+				614A34301A2D010E008B60EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		7B876B5F1A1C9F2D00A76FAF /* Build configuration list for PBXProject "BitWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
